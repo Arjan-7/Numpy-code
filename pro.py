@@ -13,3 +13,11 @@ print(b)
 print(b.shape)
 print(b.ndim)
 print(type(b))
+x = np.arange(10,30,2).reshape(2,5)
+print(x)
+y = np.arange(20,40,2).reshape(2,5)
+print(y)
+print("sum:")
+print(x+y)
+
+
